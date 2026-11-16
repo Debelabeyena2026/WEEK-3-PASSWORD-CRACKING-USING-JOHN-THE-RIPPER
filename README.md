@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project presents a cybersecurity laboratory exercise focused on password auditing and the practical use of John the Ripper for analyzing password hashes. The objective is to understand how weak credentials can be identified, how password attacks operate, and how organizations can strengthen authentication systems to reduce the risk of unauthorized access.
+This project presents a cybersecurity laboratory exercise focused on password auditing and the practical use of John the Ripper for analyzing password hashes. The objective is to understand how weaknesses in password selection can be evaluated in a controlled and ethical environment.
 
-The exercise is grounded in ethical and authorized security testing. It is intended to demonstrate how password weaknesses can be assessed in a controlled environment, while reinforcing the importance of responsible use, proper authorization, and strong defensive practices.
+The exercise is grounded in ethical and authorized security testing. It is intended to demonstrate how password weaknesses can be assessed in a controlled environment, while reinforcing the importance of responsible cybersecurity practice.
 
 ---
 
@@ -61,7 +61,7 @@ The lab follows a structured workflow designed to evaluate password security in 
 
 ## Findings and Discussion
 
-The results of the exercise illustrate that password security depends not only on the hashing mechanism, but also on the quality of the passwords users choose. Simple, common, and reused passwords are significantly more vulnerable to guessing attacks, while stronger password patterns improve resilience against automated cracking techniques.
+The results of the exercise illustrate that password security depends not only on the hashing mechanism, but also on the quality of the passwords users choose. Simple, common, and reused passwords can be systematically exploited using modern cracking tools.
 
 This project highlights several important points:
 
@@ -75,7 +75,7 @@ This project highlights several important points:
 
 ## Security Implications
 
-Password-based authentication remains one of the most common controls in information systems. However, if users create weak or reused credentials, the protection offered by hashing and access control can be undermined. This makes password policy, user awareness, and secure credential management critical components of modern security design.
+Password-based authentication remains one of the most common controls in information systems. However, if users create weak or reused credentials, the protection offered by hashing and access control can be undermined.
 
 Organizations should therefore implement layered controls, including:
 
@@ -104,7 +104,7 @@ To improve password security and reduce exposure to credential attacks, the foll
 
 ## Conclusion
 
-This project provides an introductory but important understanding of password auditing and security assessment using John the Ripper. It demonstrates that weak passwords can be exploited quickly, while sound security practices and strong password policies significantly reduce the likelihood of compromise.
+This project provides an introductory but important understanding of password auditing and security assessment using John the Ripper. It demonstrates that weak passwords can be exploited quickly, reinforcing the need for stronger password policies and secure authentication systems.
 
 The activity reinforces the value of ethical cybersecurity testing and highlights the practical need for stronger authentication systems in both academic and professional environments.
 
@@ -112,7 +112,7 @@ The activity reinforces the value of ethical cybersecurity testing and highlight
 
 ## Ethical and Legal Note
 
-This project is intended for educational and authorized cybersecurity use only. Password cracking and password auditing tools must be used in controlled environments with explicit permission and appropriate oversight. All testing must comply with legal and organizational policy.
+This project is intended for educational and authorized cybersecurity use only. Password cracking and password auditing tools must be used in controlled environments with explicit permission and lawful authorization.
 
 ---
 
@@ -120,32 +120,26 @@ This project is intended for educational and authorized cybersecurity use only. 
 
 Figure 1. A congratulatory cybersecurity-themed certificate style banner showing a smiling participant giving a thumbs-up, with a highlighted flag string and the message “You have captured your flag.”
 
-Upload the actual image as `images/appendix1.png` to display it.
-
-![Appendix 1](images/appendix1.png)
+![Appendix 1](appendix1.jpeg)
 
 ---
 
 ## Appendix 2: Cracked Padlock Graphic
 
-Figure 2. A dark red cyber-themed congratulatory graphic featuring a cracked padlock, glowing digital effects, and a highlighted flag value. The visual emphasizes successful capture of a challenge flag and the symbolic victory of cracking the target password.
+Figure 2. A dark red cyber-themed congratulatory graphic featuring a cracked padlock, glowing digital effects, and a highlighted flag value. The visual emphasizes successful capture of a challenge flag.
 
-Upload the actual image as `images/appendix2.png` to display it.
-
-![Appendix 2](images/appendix2.png)
+![Appendix 2](appendix2.jpeg)
 
 ---
 
 ## Appendix 3: Simple Achievement Card
 
-Figure 3. A clean congratulatory achievement card with a smiling participant in a pink shirt, a thumbs-up gesture, and the message indicating that the flag was captured successfully. This layout presents a lighter, more professional completion-style design.
+Figure 3. A clean congratulatory achievement card with a smiling participant in a pink shirt, a thumbs-up gesture, and the message indicating that the flag was captured successfully.
 
-Upload the actual image as `images/appendix3.png` to display it.
-
-![Appendix 3](images/appendix3.png)
+![Appendix 3](appendix3.jpeg)
 
 ---
 
 ## Final Summary
 
-This repository serves as a practical demonstration of password analysis, security evaluation, and ethical cybersecurity learning. It provides a foundation for understanding the importance of password strength, attack prevention, and responsible security testing in modern digital systems.
+This repository serves as a practical demonstration of password analysis, security evaluation, and ethical cybersecurity learning. It provides a foundation for understanding the importance of password hygiene and credential defense in modern digital environments.
