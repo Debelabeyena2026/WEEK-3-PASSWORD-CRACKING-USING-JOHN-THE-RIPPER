@@ -1,133 +1,89 @@
-# Week 3: Password Cracking Using John the Ripper
+# Password Security Assessment with John the Ripper
 
-## Overview
+**Course:** Week 3 Cybersecurity Lab  
+**Topic:** Password auditing and hash analysis  
+**Tool:** John the Ripper
 
-This project explores the fundamentals of password security and password cracking using John the Ripper, a widely used open-source tool for assessing password strength and testing password hashes in controlled cybersecurity environments. The goal of this exercise is to understand how weak credentials can be recovered, how password hashes are processed, and how organizations can apply stronger security controls to reduce risk.
+## Abstract
 
-The project is designed as a practical cybersecurity lab that demonstrates the relationship between offensive testing techniques and defensive security measures. It emphasizes ethical use, legal authorization, and the importance of evaluating system security in a responsible manner.
+This laboratory exercise introduces password auditing through the examination of password hashes with John the Ripper. It considers how password selection and storage practices influence credential security, and how authorized testing can inform defensive improvements. The exercise is educational and should be conducted only with data and systems for which explicit permission has been granted.
 
----
+## 1. Introduction
 
-## Objectives
+Passwords remain a common means of authentication, but weak, reused, or predictable choices can expose accounts to risk. Password auditing provides a controlled way to evaluate credential strength and identify opportunities to improve security. This report presents a practical introduction to hash analysis and password auditing using John the Ripper, connecting the testing process with responsible security practices.
 
-The primary objectives of this project are to:
+## 2. Objectives
 
-- Understand the concept of password hashing and why it is essential for secure authentication.
-- Explore how John the Ripper operates on password hashes.
-- Examine common password attack methods, including dictionary and brute-force approaches.
-- Evaluate how password complexity affects system security.
-- Highlight best practices for strengthening authentication and reducing password-related vulnerabilities.
-- Demonstrate the importance of ethical cybersecurity testing in authorized environments.
+This exercise aims to:
 
----
+- Explain the role of password hashes in authentication systems.
+- Introduce John the Ripper as a password-auditing tool.
+- Examine how password strength affects resistance to guessing attempts.
+- Interpret the results of an authorized, controlled audit.
+- Identify defensive measures that reduce password-related risk.
 
-## Tools Used
+## 3. Tools and Materials
 
-This project makes use of the following tools and concepts:
+- **John the Ripper:** Open-source software for password hash auditing.
+- **Linux terminal:** Environment for running the authorized lab exercise.
+- **Lab-provided sample data:** Hashes and other materials supplied for this exercise.
+- **Documentation and reporting materials:** Used to record the procedure and observations.
 
-- John the Ripper — password cracking and hash analysis tool
-- Linux terminal environment — for executing commands and managing files
-- Password hash files — used to test and analyze credential security
-- Dictionary and wordlist-based attack methods
-- Security analysis and reporting for summarizing findings
+Use only purpose-provided or explicitly authorized sample data. Do not test credentials belonging to other people or systems.
 
----
+## 4. Methodology
 
-## Methodology
+The exercise follows a controlled assessment process:
 
-The methodology for this project follows a structured cybersecurity assessment workflow:
+1. **Authorization and preparation:** Confirm the scope, permissions, and source of all lab data.
+2. **Data identification:** Inspect the provided sample and identify relevant hash-format information using the course materials and tool documentation.
+3. **Audit:** Apply the instructor-defined, approved audit method with John the Ripper in the lab environment.
+4. **Observation:** Record the test conditions and outcomes without including real or sensitive credentials in this repository.
+5. **Evaluation:** Consider what the outcomes indicate about password selection and the defensive controls in scope.
+6. **Reporting:** Summarize the results, limitations, and recommendations while preserving privacy and authorization boundaries.
 
-1. Preparation
-   - Identify the environment and ensure all testing is performed legally and with proper authorization.
-   - Gather the necessary files, including password hash data and relevant wordlists.
+## 5. Findings and Discussion
 
-2. Hash Analysis
-   - Examine the hash format and determine the appropriate cracking method.
-   - Use John the Ripper to identify the hash type and prepare it for processing.
+The exercise illustrates that password security depends on more than the presence of a hash. Predictable or commonly chosen passwords may be more susceptible to guessing, while stronger password practices can increase resistance. Hashing is an important safeguard for stored credentials, but its protective value also depends on using an appropriate password-storage scheme and sound system configuration.
 
-3. Attack Execution
-   - Run dictionary-based attacks using common passwords and wordlists.
-   - If necessary, use brute-force or incremental attack modes to test password strength further.
-   - Monitor the cracking process and record the results.
+Document the specific observations from the lab report here. Avoid making claims about results that were not observed in the exercise, and do not publish recovered passwords or sensitive credential data.
 
-4. Evaluation
-   - Assess whether the passwords are weak, predictable, or highly resistant to attack.
-   - Analyze the relationship between password length, complexity, and crackability.
+## 6. Recommendations
 
-5. Documentation
-   - Record findings, identify weaknesses, and explain how stronger password policies can mitigate risk.
-   - Summarize the security implications for real-world systems.
+Based on the general lessons of password auditing, organizations should:
 
----
+- Use long, unique passwords and discourage reuse.
+- Block commonly used and known-compromised passwords where feasible.
+- Store passwords with a modern, purpose-built password-hashing scheme configured appropriately.
+- Enable multi-factor authentication where available.
+- Limit access to credential data and protect audit results.
+- Perform password audits only within a documented, authorized scope.
+- Provide users with clear guidance on creating and managing credentials securely.
 
-## Findings
+## 7. Limitations
 
-The findings from this exercise highlight the importance of password quality and proper credential protection. In many cases, weak or commonly used passwords can be cracked relatively quickly, especially when basic dictionary attacks are used. This demonstrates that password security is not only about storing credentials securely, but also about enforcing strong credential creation practices.
+Results from a classroom exercise depend on the sample data, configuration, and test conditions used. They should not be treated as a comprehensive assessment of a production system or as a guarantee of security. This README summarizes the topic and workflow; consult the accompanying report for the exercise-specific evidence and details.
 
-Key observations include:
+## 8. Conclusion
 
-- Simple passwords are highly vulnerable to cracking.
-- Password length and complexity significantly increase resistance to attacks.
-- Hashing alone is not sufficient if users choose weak passwords.
-- Attackers often rely on common wordlists, predictable patterns, and reused credentials.
-- Strong password policies can substantially reduce the likelihood of compromise.
+This lab provides an introduction to password auditing with John the Ripper and demonstrates how controlled testing can support defensive security. Its central lesson is that robust password practices, secure password storage, and responsible assessment procedures work together to reduce credential-related risk.
 
----
+## Appendices
 
-## Security Implications
+Add the corresponding appendix image files to the repository at the paths below to display them. Replace the filenames if your uploaded images use different names.
 
-This project demonstrates that password-based authentication remains a critical security concern. Even when hashes are stored securely, poor password choices can expose systems to compromise. As a result, organizations must implement robust authentication controls, including:
-
-- Minimum password length and complexity requirements
-- Prohibition of common or reused passwords
-- Multi-factor authentication (MFA)
-- Regular password audits and policy enforcement
-- Hashing with modern, secure algorithms
-- User awareness and security education
-
----
-
-## Recommendations
-
-To strengthen password security, the following recommendations are advised:
-
-- Enforce strong password policies with long and varied character sets.
-- Require MFA wherever possible.
-- Restrict the use of default, common, or previously leaked passwords.
-- Use modern password hashing algorithms and secure storage methods.
-- Conduct regular security assessments and ethical testing.
-- Train users on password hygiene and cybersecurity best practices.
-
----
-
-## Conclusion
-
-This project provides a practical introduction to password cracking and security assessment using John the Ripper. It demonstrates that password strength is a fundamental aspect of cybersecurity and that weak credentials represent a significant risk to information systems. By understanding how password hashes are attacked and cracked, security professionals can better design, evaluate, and improve authentication systems.
-
-The exercise reinforces the importance of ethical, authorized testing in cybersecurity and highlights the value of strong password policies in protecting digital assets.
-
----
-
-## Appendix 1
-
-Upload the first appendix image as `images/appendix1.png` and it will appear below.
+### Appendix 1
 
 ![Appendix 1](images/appendix1.png)
 
-## Appendix 2
-
-Upload the second appendix image as `images/appendix2.png` and it will appear below.
+### Appendix 2
 
 ![Appendix 2](images/appendix2.png)
 
-## Appendix 3
-
-Upload the third appendix image as `images/appendix3.png` and it will appear below.
+### Appendix 3
 
 ![Appendix 3](images/appendix3.png)
 
----
+## Ethical and Legal Use
 
-## Ethical Note
-
-This project is intended for educational and authorized cybersecurity purposes only. Password cracking tools and techniques should be used strictly in legal, approved, and controlled environments, such as ethical hacking labs, penetration testing engagements, and security research under proper authorization.
+This project is for educational purposes and authorized security assessment only. Use password-auditing tools solely with systems and data you own or are explicitly authorized to test. Handle all credentials and results as sensitive information.
